@@ -61,7 +61,7 @@ public class DataAnalysis {
     public static Set<Followees_Set> followeesReader(String filePath) throws FileNotFoundException {
         int previous = 0;
         int preFollower;
-        Set<Followees_Set> data = new TreeSet<>();                  // A huge buffer for the hole data.
+        Set<Followees_Set> data = new TreeSet<>();                  // A huge buffer for the whole data.
         Set<Buffer_Set> buffer = new TreeSet<>();                   // A small buffer for a segment of data.
         Set<Followees_Set> followeesSet = new TreeSet<>();          // The buffer for storing sorted and distinct data.
 

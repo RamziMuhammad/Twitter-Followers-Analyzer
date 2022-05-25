@@ -1,6 +1,5 @@
 import java.io.*;
-import java.util.Scanner;
-import java.util.Set;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
@@ -45,7 +44,7 @@ public class Main {
                     int id = sc.nextInt();
                     int index = DataAnalysis.getFollowerIndex(followers, id, 0, nFollowers);
                     if(index != -1) {
-                        System.out.println(followees[index].nFollowers);
+                        System.out.println(followers[index].nFollowees);
                     }
                     DataAnalysis.goToHome();
                 }
@@ -54,7 +53,9 @@ public class Main {
                     int id = sc.nextInt();
                     System.out.println("Enter the threshlod number: ");
                     int thresholdNum = sc.nextInt();
-                    System.out.println(DataAnalysis.suggestFriends(followers, nFollowers, id, thresholdNum));
+                    List<Integer> sugFriends = DataAnalysis.suggestFriends(followers, nFollowers, id, thresholdNum);
+                    System.out.println("You have " + sugFriends.size() + " suggested friends:");
+                    System.out.println(sugFriends);
                     DataAnalysis.goToHome();
                 }
                 case "6" -> {

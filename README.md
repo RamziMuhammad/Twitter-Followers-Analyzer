@@ -295,41 +295,36 @@ First, the intro is presented, which allows you to select one of our project's a
    <p align="center">
      <img src="https://github.com/RamziMohamad/Twitter-Followers-Project/blob/main/Assets/Number-Accounts-Method.png" style="width:60%;"/>
    </p>
-
    
-
+   
 2. If you select the second option to see the **number of followers for a specific account**, you will be **prompted to input its ID**, after which the accurate number of followers will be displayed.
 
    <p align="center">
      <img src="https://github.com/RamziMohamad/Twitter-Followers-Project/blob/main/Assets/Number-Followers-Method.png" style="width:60%;"/>
    </p>
-
    
-
+   
 3. For the third feature to display the **Top-Influencers**, you will enter the number you want and we will do the rest.
 
    <p align="center">
      <img src="https://github.com/RamziMohamad/Twitter-Followers-Project/blob/main/Assets/Top-Influencers-Method.png" style="width:60%;"/>
    </p>
-
    
-
+   
 4. The forth feature is about **getting the number of followees** of a specific ID, you will be **prompted to input its ID**, after which the accurate number of followers will be displayed.
 
    <p align="center">
      <img src="https://github.com/RamziMohamad/Twitter-Followers-Project/blob/main/Assets/Number-Followees-Method.png" style="width:60%;"/>
    </p>
-
    
-
+   
 5. The fifth and final function allows you to receive a list of **near people to follow**; all you have to do is provide us your ID and we'll take care of the rest.
 
    <p align="center">
      <img src="https://github.com/RamziMohamad/Twitter-Followers-Project/blob/main/Assets/Suggestion-Friends-Method.png" style="width:60%;"/>
    </p>
-
    
-
+   
 6. Only use the last option if you wish to **exit** the application as well as after every function completion.
 
    **Note that**: We ask you if you want to **continue** using the app or leave it when each function is completed.
@@ -337,11 +332,6 @@ First, the intro is presented, which allows you to select one of our project's a
    
 
 ------
-
-## This Project was under supervision of:
-
-- Dr. Abdallah Saad 
-- Eng. Mohamed Abd Al-Majeed
 
 ### Team Members
 
@@ -354,4 +344,3 @@ This Project was created due to the efforts of all the team members and their in
    <td align="center"><a href="https://github.com/dohakhaled33"><img src="https://avatars.githubusercontent.com/u/66404704?v=4" width="250px;" alt=""/><br /><sub><b><center>Doha Khaled</b></sub></a><br /></td>
     </tr>
 </table>
-
